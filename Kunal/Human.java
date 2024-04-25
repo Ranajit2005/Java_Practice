@@ -1,19 +1,18 @@
 public class Human {
+    int age;
+    String name;
+    static long population;
 
-    String message = "Hello World";
-
-    public static void display(Human human){
-        System.out.println(human.message);
+    public Human(int age,String name){
+        this.age = age;
+        this.name = name;
+        Human.population += 1;
     }
 
     public static void main(String[] args) {
-        Human kunal = new Human();
-        System.out.println(kunal.message);    
-        kunal.message = "Kunal's message";
-        Human.display(kunal);
-
-        Human rahul = new Human();
-        System.out.println(rahul.message);
+        Human Ranajit = new Human(19, "Ranajit");
+        Human Bittu = new Human(19,"Bittu");
+        Human Bittu2 = new Human(19,"Bittu");
+        System.out.println("The population is : "+Human.population);
     }
-
 }
