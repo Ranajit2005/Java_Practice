@@ -1,5 +1,5 @@
 
-import java.util.*;
+// import java.util.*;
 //Polymorphism is a concept of OOPs in which a single object can be used in different ways.
 //Polymorphism is two type
 //   i) Compile time and ii) Run time 
@@ -44,7 +44,7 @@ class B extends A{
 
 public class Test1 {
     public static void main(String[] args) {
-        B b = new B();
+        // B b = new B();
         A c = new B();
         // b.show();
         c.show();
