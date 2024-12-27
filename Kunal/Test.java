@@ -16,7 +16,7 @@ class Demo{
 
 class Test{
     public static void main(String[] args) {
-        Demo d = new Demo();
+        // Demo d = new Demo();
         // d.D1(2, 2);
     }
 }
