@@ -18,7 +18,7 @@
     //-> Abstract method can't be native
 
 
-
+//     -> Example 1 <-
 abstract class Animal{      //If we use abstarct method in class, then class should be abstract
 
     /*Animal(){       //Abstract class can have constructor and it is automatically called when object of child class is created
@@ -42,11 +42,51 @@ class Dog extends Animal{
     }
 }
 
+//     -> Example 2 <-
+
+abstract class programming{
+    //We definf 2 abstract program
+
+    abstract void Coding();
+    abstract void Debugging();
+
+} 
+
+abstract class Coder extends programming{
+
+    void Coding(){
+        System.out.println("witre Coding");
+    }
+
+    //Now only know about Coding method. But it is extends form programming class so it should have Debugging method also. So we just write the method as abstract and leave it blank. For this reason the class also be abstrack
+
+    abstract void Debugging();
+
+}
+
+class Degbugger extends Coder{
+
+    void Debugging(){
+        //super.Debugging();   //It is not necessary to call super class method
+        System.out.println("Debugging");
+    }
+
+}
+
+
 
 public class Test3 {
     public static void main(String[] args) {
         //Animal a = new Animal();     //Can't create object of abstract class
-        Dog d = new Dog();
-        d.show();
+        // Dog d = new Dog();
+        // d.show();
+
+        Degbugger d = new Degbugger();
+        d.Debugging();
+        //Coder c = new Coder(); //It is not possible beacuse Coder is abstract class
+
+        Coder c = new Degbugger();
+        c.Coding();
+        c.Debugging();
     }
 }
