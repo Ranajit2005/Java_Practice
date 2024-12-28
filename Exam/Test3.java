@@ -60,7 +60,7 @@ abstract class Coder extends programming{
 
     //Now only know about Coding method. But it is extends form programming class so it should have Debugging method also. So we just write the method as abstract and leave it blank. For this reason the class also be abstrack
 
-    abstract void Debugging();
+    //abstract void Debugging();    //If we do not write it, then it gives no error. But class should be abstract
 
 }
 
