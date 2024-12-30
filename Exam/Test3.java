@@ -1,5 +1,5 @@
-//abstract class
-    //-> abstract is a keyword in java used to create abstract class and method
+//Abstract class
+    //-> Abstract is a keyword in java used to create abstract class and method
     //-> Abstract class can have abstract and non-abstract method
     //-> Abstract class can't be instantiated, means no object of abstract class can be created
     //-> Abstract class can have constructor and static method
@@ -8,7 +8,7 @@
     //-> Abstract class can have data member
 
 
-//abstract method
+//Abstract method
     //-> Abstract method is a method that is declared but not implemented
     //-> Abstract method can only be present in abstract class
     //-> Abstract method can't be private

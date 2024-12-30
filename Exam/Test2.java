@@ -7,7 +7,6 @@
     //  2. Provide public setter and getter methods to modify and view the variables values.
     //-> Example:
 
-
 class A{
     private int a;
     private String b;
