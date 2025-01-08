@@ -34,6 +34,9 @@ class Test7{
     {   //It run every time when object is created
         System.out.println("Instance block of class A");
     }
+    Test7(){
+        System.out.println("Constructor of class A");
+    }
 
     static void show(){
         System.out.println("Static method of class A");
@@ -48,6 +51,7 @@ class Test7{
     public static void main(String[] args) {
         Test7 obj = new Test7();
         Test7 obj1 = new Test7();
+        obj.show();
     }
 }
 
