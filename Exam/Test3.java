@@ -25,7 +25,7 @@ abstract class Animal{      //If we use abstarct method in class, then class sho
         System.out.println("Animal class constructor");
     }*/
 
-    //void show(); //Now it gives error
+    // void show1(); //Now it gives error
     abstract void show(); //Now it is correct
 
 }
