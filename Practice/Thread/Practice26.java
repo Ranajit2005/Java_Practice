@@ -37,9 +37,8 @@ class ProducerConsumer{
 
             val--;
             System.out.println("Consumer consume item : "+val+"th");
-
             buffer[val] = 0;
-
+            
             notify();
             Thread.sleep(1000);
 
@@ -53,6 +52,7 @@ public class Practice26 {
     public static void main(String[] args) {
 
         ProducerConsumer pc = new ProducerConsumer();
+
         Thread producerThread = new Thread(() -> {
             try {
                 pc.producer();

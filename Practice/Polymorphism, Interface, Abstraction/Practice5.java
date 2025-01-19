@@ -1,7 +1,5 @@
 // Create two interfaces, each with two methods. Inherit a new interface from the two, adding a new method. Create a class by implementing the new interface and also inheriting from a concrete class. In main (), create an object of derived class and call the methods. [do all without package statement]
 
-
-
 // First interface
 interface Interface1 {
     void method1();

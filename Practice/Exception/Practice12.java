@@ -5,9 +5,7 @@
 public class Practice12 {
 
     public void CheckedException() throws Exception {
-
-
-
+        
     }
     public static void main(String[] args) {
 

@@ -1,6 +1,6 @@
 // Make several threads (say 5) with names (by extending thread), set their priority and run them to see what happens.
 
- class A extends Thread{
+class A extends Thread{
 
     public void run(){
 
