@@ -1,5 +1,5 @@
 class A{
-    void fun1(){
+    void fun1(){    // non static function(instance member function)
         System.out.println("Hello from A fun 1 non static function(instance member function)");
     }
 
@@ -9,7 +9,7 @@ class A{
 }
 
 class B{
-    static void fun1(){
+    static void fun1(){     // static function(class member function)
         System.out.println("Hello from B fun 1 static function");
     }
 
