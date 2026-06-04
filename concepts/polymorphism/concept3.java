@@ -16,7 +16,8 @@ class Child extends Parent{
 
     // @Override    // So we cannot override a static method from the parent class, because static methods are not associated with any object, they are associated with the class.
     // void show(){}   // This instance method cannot override the static method from Parent
-
+    
+    // @Override    // Using static, we also cannot override static method
     static void display(){
         System.out.println("This is child class");
     }
@@ -46,5 +47,4 @@ class concept3{
 
 
     }
-
 }
